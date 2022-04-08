@@ -1,0 +1,55 @@
+###########################
+##                       ##
+##    Xray Protection    ##
+##                       ##
+##     by Menshons       ##
+##     Version 1.0       ##
+##                       ##
+###########################
+
+Enable: true
+
+# If you want to protect another block, simply add it to the Messages and Protection section
+
+# Will also send messages to the console
+Log in console: true
+
+# Custom settings
+Protection:
+  DIAMOND_ORE: true
+  EMERALD_ORE: true
+  IRON_ORE: false
+  GOLD_ORE: false
+  COAL_ORE: false
+  LAPIS_ORE: false
+  REDSTONE_ORE: false
+  NETHER_QUARTZ_ORE: false
+  ANCIENT_DEBRIS: true
+
+# Messages
+Messages:
+  DIAMOND_ORE: '§b➥Player§r %PLAYER% §bhas found Diamond ore! §7Lightness: %LIGHTLEVEL%§b.'
+  EMERALD_ORE: '§2➥Player§r %PLAYER% §2has found Emerald ore! §7Lightness: %LIGHTLEVEL%§2.'
+  IRON_ORE: '§6➥Player§r %PLAYER% §6has found Iron ore! §7Lightness: %LIGHTLEVEL%§6.'
+  GOLD_ORE: '§e➥Player§r %PLAYER% §ehas found Gold ore! §7Lightness: %LIGHTLEVEL%§e.'
+  COAL_ORE: '§8➥Player§r %PLAYER% §8has found Coal ore! §7Lightness: %LIGHTLEVEL%§8.'
+  LAPIS_ORE: '§9➥Player§r %PLAYER% §9has found Lapis ore! §7Lightness: %LIGHTLEVEL%§9.'
+  REDSTONE_ORE: '§c➥Player§r %PLAYER% §chas found Redstone ore! §7Lightness: %LIGHTLEVEL%§c.'
+  NETHER_QUARTZ_ORE: '§f➥Player§r %PLAYER% §fhas found Quartz ore! §7Lightness: %LIGHTLEVEL%§f.'
+  ANCIENT_DEBRIS: '§8➥Player§r %PLAYER% §8has found Ancient Debris! §7Lightness: %LIGHTLEVEL%§f.'
+
+# Custom database
+# if you don't have your own database leave the value of Enable to false
+Connection:
+  Enable: false
+  Host: ''
+  Port: ''
+  Database: ''
+  User: ''
+  Password: ''
+
+# How old broken blocks messages do you want to display in message hover event? (in days)
+Days to display: 2
+
+
+

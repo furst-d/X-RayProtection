@@ -1,0 +1,16 @@
+name: XrayProtection
+main: by.mens.XrayProtection.Main
+version: 1.0
+api-version: 1.16
+authors:
+    - Menshons
+
+permissions:
+    mens.xray:
+        default: op
+        description: See X-Ray messages
+
+
+
+
+
